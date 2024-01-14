@@ -1,8 +1,8 @@
 services:
   app:
     build:
-      context: ./docker/app/
-      dockerfile: Dockerfile.dev
+      context: .
+      dockerfile: ./docker/app/Dockerfile.dev
     tty: true
     stdin_open: true
     init: true

@@ -1,6 +1,5 @@
 /** @jsxImportSource @emotion/react */
 import { Helmet } from "react-helmet-async";
-import { css } from "@emotion/react";
 import { siteTitle } from "@/define";
 import MainApp from "@/layouts/MainApp";
 
